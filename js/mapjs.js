@@ -99,7 +99,7 @@ function loadAmap() {
 
 //fetch 异步获取加载信息
 var corsProxy = 'https://cors-anywhere.herokuapp.com/';
-fetch("http://webapi.amap.com/maps?v=1.4.6&key=b22b1c07c6cb055f7221f4e2b29861ec&callback=initMap").then(function (res) {
+fetch(corsProxy + "http://webapi.amap.com/maps?v=1.4.6&key=b22b1c07c6cb055f7221f4e2b29861ec&callback=initMap").then(function (res) {
     console.log(res.statusText)
     // console.log(res);
 }, function (err) {
