@@ -1,0 +1,50 @@
+#menu,.options-box,.a__map{
+    order:10;
+}
+
+@media screen and (max-width: 550px) {
+    #menu{
+        display: inline-block;
+        position:absolute;
+        left: 1em;
+        top: 1.5em;
+        padding:0.5em;
+        float: left;
+        order:0;
+        z-index: 2;
+    }
+    #menu svg{
+        width:45px;
+        fill: rgba(0, 0, 0, 0.58);
+    }
+    .options-box{
+        position: absolute;
+        width:250px;
+        -webkit-transform: translate(-400px, 0px);
+        transform: translate(-400px, 0px);
+        transition: transform 1s ease;
+    }
+    .a__map{
+        order:2;
+        z-index:1;
+    }
+    .options-box.open{
+        position: absolute;
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        transition: transform 1s ease;
+        z-index:3
+
+    }
+}
+@media screen and (min-width:551px){
+    .options-box{
+        position: absolute;
+        transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        transition: transform 1s ease;
+    }
+    .a__map{
+        position: absolute;
+    }
+}

@@ -1,0 +1,74 @@
+
+html,
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height:100%;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input {
+    font-size: 12px;
+}
+
+h1 {
+    font: 36px Helvetica, 'Hiragino Sans GB', 'Microsoft Yahei', '微软雅黑', Arial;
+    color: #525454;
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#hide-listings,
+#show-listings {
+    width: 45%;
+}
+
+#input-seach {
+    width: 70%;
+}
+
+#seach-button {
+    width: 20%;
+}
+
+#menu{
+    display: none;
+}
+#museumList li {
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    border-style: solid;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.a__map {
+    position: absolute;
+    /*right: 0;*/
+    border-radius: 6px;
+    padding: 0.5em;
+    /*left: 400px;*/
+    height: 100%;
+    margin: 0.5em;
+    width:100%;
+}
+
+.options-box {
+    position: absolute;
+    background: rgba(141, 141, 141, 0.85);
+    border-radius: 6px;
+    width:260px;
+    height:100%;
+    line-height: 35px;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+}
