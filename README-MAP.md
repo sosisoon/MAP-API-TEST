@@ -1,5 +1,5 @@
 说明：
-    本应用使用高德地图API、knockout和jQuery框架
+    本应用使用高德地图&百度地图的API、knockout和jQuery框架
     参考了高德地图API技术文档：http://lbs.amap.com/api/javascript-api/guide/abc/quickstart
     
     修改后完成的功能说明：
