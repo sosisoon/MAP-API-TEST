@@ -1,2 +1,2 @@
 # MAP-API-TEST
-高德地图API测试
+高德地图&百度地图API测试
